@@ -38,7 +38,7 @@ class ModalViewController: UIViewController {
         button.addTarget(self, action: #selector(closeModal), for: .touchUpInside)
     }
     
-    @objc func closeModal() {
+    @objc func closeModal()  {
         self.dismiss(animated: true, completion: nil)
     }
 }
